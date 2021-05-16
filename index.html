@@ -2,60 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <title>紹介ページ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-  <h1>演習/宿題：紹介ページ(仮)</h1>
-  <div class="alert alert-success" role="alert">
-    <h2>自己紹介</h2>
-    <p>みずゆ mizuyu</p>
-    <p>よくPCでオンラインゲームをしています。
-    World of WarshipsやHearts of Iron IV、WarThunderなどのゲームを主にプレイしています。</p>
-    <p>スマホではTHE IDOLM@STER STARLIGHT STAGEやTHE IDOLM@STER SHINY COLORSなどをプレイしています。</p>
+<div class="container">
+  <h1>自己紹介</h1>
+  <p class="lead"><b>みずゆ</b> mizuyu</p>
+  <p>神奈川出身です。
+    主な趣味は鉄道模型やゲームです。鉄道模型は小学生の高学年の時にはじめました。
+    主に関東圏の鉄道でを集めていて、<b>特に昭和後期</B>(国鉄がJRに変わる付近)<b>に製造、運行され始めた列車</b>が好みです。</p>
+  <h4>好みの鉄道</h4>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">国鉄JR</th>
+      <th scope="col">製造年</th>
+      <th scope="col">私鉄</th>
+      <th scope="col">製造年</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>211系</td>
+      <td>1985年-1991年</td>
+      <td>小田急8000形</td>
+      <td>1982年-1987年</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>201系</td>
+      <td>1981年-1985年</td>
+      <td>小田急5000形</td>
+      <td>1969年-1982年</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>205系</td>
+      <td>1985年-1994年</td>
+      <td>小田急1000形</td>
+      <td>1988年-1993年</td>
+    </tr>
+    </tbody>
+  </table>
+  <p>PCゲームは<a href="https://worldofwarships.asia/ja/">World of Warships</a>やHearts of Iron IV等の歴史系、スマホでは<a
+      href="https://cinderella.idolmaster.jp/sl-stage/">デレステ</a>や<a
+      href="https://shinycolors.idolmaster.jp/">シャニマス</a>などをしています。<br>シャニマスの押しユニットは<span
+      class="text-info">noctshill</span>です。</p>
+  <div class="alert alert-info" role="alert">
+    <h5><span class="text-info">noctshill</span>とは</h5>
+    <p class="unit-copy">
+      <strong>
+        <ruby>
+          <b>”さよなら、透明だった僕たち”</b>
+          <rp>(</rp>
+          <rt>チルアウト・ノクチルカ</rt>
+          <rp>)</rp>
+        </ruby>
+      </strong>
+    </p>
+    <p>
+      幼なじみ４人で結成された、透明感あふれるアイドルユニット<br>
+      誰かになる必要なんてない──<br>
+      走り出す波を追って、少女たちは碧い風になる
+    </p>
   </div>
-  <h2>最近始めたゲームの簡易的紹介</h2>
-  <div class="alert alert-primary" role="alert">
-    <h3><a href="https://shinycolors.idolmaster.jp/">THE IDOLM@STER SHINY COLORS</a></h3>
-    <P>ジャンル：育成＆ライブ対戦</p>
-    <p>対応環境：スマホブラウザ/PCブラウザ/スマートフォンアプリ</P>
-    <h3>ユニット紹介</h3>
-    <table>
-      <tbody>
-      <tr>
-        <td><h3>noctshill</h3></td>
-        <td><h3>illumination STARS</h3></td>
-      </tr>
-      <tr>
-        <td>
-          <p>チルアウト・ノクチルカ<br>さよなら、透明だった僕たち</p>
-          <p>幼なじみ４人で結成された、透明感あふれるアイドルユニット
-            <br>誰かになる必要なんてない──<br>走り出す波を追って、少女たちは碧い風になる</p>
-        </td>
-        <td>
-          <p>瞳に輝く、無限の可能性</p>
-          <p>小さな光を宿す少女たちで結成された、新世代のアイドルユニット。
-            <br>今はまだかすかな輝きでも、時にぶつかり時に支え合いながら、一等星を目指して歩んでいく！</p>
-        </td>
-      </tr>
-      <tr>
-        <td><h3>L'Antica</h3></td>
-        <td><h3>ALSTROEMERIA</h3></td>
-      </tr>
-      <tr>
-        <td>
-          <p>回せ、錆びついた運命の鍵を</p>
-          <p>胸に燻る焔を「ウタ」に、孤独な泪を「ネガイ」に変える、新世界の革命的アイドルユニット。<br>
-            ゴシックなドレスを纏い、彼女たちは希望を謳い続ける―。</p>
-        </td>
-        <td>
-          <p>花ざかり、私達の幸福論</p>
-          <p>ポップでハッピーな3人組アイドルユニット。<br>
-            アルストロメリアの花言葉「未来への憧れ」を胸に抱き、今日もシアワセなパフォーマンスで会場に笑顔を咲かせます！</p>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
+  <h3>我が家のわんこ</h3>
+  <p>名前は<b>「さくた」</b>です。11月18日が誕生日で今年で2歳でチワワの男の子です。
+    私がリビンクで座っているとすぐにおもちゃを持ってきてかまってくれと言わんばかりのアピールをしてきます。
+    Twitterに時々写真や動画を上げているので見たい方は声をかけてください。さくたは二代目わんこで先代わんこは「モカ」です。
+    モカは小さい頃から一緒に生活して来ましたが、19年の秋16歳の誕生日を過ぎた頃に亡くなりました。</p>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+          crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
